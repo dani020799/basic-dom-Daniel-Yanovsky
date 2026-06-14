@@ -1,0 +1,46 @@
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  background: #f7f9fc;
+}
+
+#app {
+  width: 320px;
+  padding: 14px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  text-align: center;
+}
+
+#nameInput {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #e6eef8;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
+#checkBtn {
+  width: 100%;
+  padding: 9px;
+  border: none;
+  border-radius: 6px;
+  background: #2b6ef6;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#message {
+  margin-top: 8px;
+  min-height: 20px;
+  font-weight: 600;
+  color: #163b2a;
+}

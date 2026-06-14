@@ -1,0 +1,16 @@
+
+#container {
+  width: 720px;
+  max-width: 95vw;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+}
+.box {
+  aspect-ratio: 1 / 1;
+  background: #e6eef8;
+  border-radius: 6px;
+  transition: background 150ms ease;
+  cursor: pointer;
+}
